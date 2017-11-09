@@ -1,0 +1,30 @@
+body{
+    font-family: verdana;
+}
+button{
+    width: 80px;
+}
+nav{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    background-color: lightgrey;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+.enabled-menu{
+    display: block;
+}
+.disable-meu{
+    display: none;
+}
