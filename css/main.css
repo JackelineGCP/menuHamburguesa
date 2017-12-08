@@ -1,30 +1,29 @@
 body{
-    font-family: verdana;
+	font-family: verdana;
 }
 button{
-    width: 80px;
+	width: 80px;
 }
 nav{
-    width: 60%;
-    margin-left: 20%;
-    text-align: center;
+	width: 60%;
+  margin-left: 20%;
+  text-align: center;
 }
 ul{
-    list-style: none;
+  list-style: none;
 }
 li:hover{
-    background-color: lightgrey;
-
+	background-color: rgb(201, 195, 195);
 }
 a{
-    text-decoration: none;
+	text-decoration: none;
 }
 a:hover{
-    color:white;
+	color:white;
 }
 .enabled-menu{
-    display: block;
+	display: block;
 }
-.disable-meu{
-    display: none;
+.disabled-menu{
+	display: none;
 }
