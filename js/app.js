@@ -1,4 +1,5 @@
-var boton = document.getElementById("btn");
+window.addEventListener('load', function() {
+var boton = document.getElementById("menu");
 boton.addEventListener("click", showMenu);
 function showMenu(){
 	var menu = document.getElementById("opcs-menu");
@@ -10,3 +11,4 @@ function showMenu(){
 			menu.classList.add("disabled-menu");
     }
 }
+});
